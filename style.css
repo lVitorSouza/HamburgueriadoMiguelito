@@ -1,0 +1,116 @@
+body {
+    background: linear-gradient(45deg, #ff00ff, #00ffff);
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background: url('https://i.imgur.com/8Km9tLL.jpg') repeat-x;
+    padding: 40px 10px;
+    border-bottom: 10px solid yellow;
+  }
+  h1 {
+    font-size: 64px;
+    color: #00ff00;
+    text-shadow: 2px 2px 0 #ff0000;
+    transform: rotate(-3deg);
+  }
+  nav {
+    background: lime;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    border: 5px dashed purple;
+  }
+  .container {
+    width: 1400px;
+    margin: 20px auto;
+    background: #fff3c4;
+    border: 8px double red;
+  }
+  .sidebar {
+    width: 300px;
+    float: left;
+    background: linear-gradient(#fff, #ffd);
+    padding: 20px;
+  }
+  .content {
+    margin-left: 320px;
+    padding: 20px;
+  }
+  .menu-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .menu-table td {
+    border: 7px groove #000;
+    padding: 15px;
+  }
+  .cta {
+    background: hotpink;
+    color: yellow;
+    font-weight: bold;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 0;
+  }
+  marquee {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .rotating {
+    animation: spin 5s linear infinite;
+  }
+  @keyframes spin {
+    0% { transform: rotate(0); }
+    50% { transform: rotate(10deg); }
+    100% { transform: rotate(0); }
+  }
+  .tiny {
+    font-size: 6px;
+  }
+  img {
+    max-width: 100%;
+  }
+  .popup {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background: #fff;
+    padding: 10px;
+    border: 6px solid red;
+  }
+  .slogan {
+    font-size: 20px;
+    color: navy;
+    background: yellow;
+    display: inline-block;
+    padding: 5px;
+  }
+  .contato {
+    background: lime;
+    color: black;
+    padding: 8px;
+  }
+  footer {
+    margin-top: 50px;
+    border-top: 10px solid green;
+    padding-top: 20px;
+  }
+  .comentario.preto {
+    background: black;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .comentario.rosa {
+    background: magenta;
+    color: navy;
+    padding: 10px;
+  }
+  .galeria {
+    border: 5px dashed orange;
+    padding: 20px;
+    margin-top: 30px;
+  }
